@@ -1,3 +1,3 @@
 # TopicForStock
 
-<h1>just try to make a webside of stock</h1>
+<h1>just try to make a website of stock</h1>

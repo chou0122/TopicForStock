@@ -5,5 +5,5 @@ api.login(   #登入
     passwd="",  #密碼
     contracts_cb=lambda security_type: print(f"{repr(security_type)} fetch done.")
 )
-contract_2890 = api.Contracts.Stocks["2890"]
-print(contract_2890)
+contract_2890 = api.Contracts.Stocks["2230"]
+print(contract_2230)

@@ -5,10 +5,16 @@ api.login(   #登入
     passwd="5Msqh9X4D6e7ztJChjac4Py43APt4fUKAizsY5HYvxCk",  #密碼
     contracts_cb=lambda security_type: print(f"{repr(security_type)} fetch done.")
 )
+
+#永豐金
 contract_2890 = api.Contracts.Stocks["2890"]
 print(contract_2890)
+#台積電
 contract_2330 = api.Contracts.Stocks['2330']
-print(contract_2330)    
+print(contract_2330)
+#台股大盤
+contract_001=api.Contracts.Indexs.TSE['001']
+print(contract_001)
 
 
 
@@ -49,3 +55,4 @@ print(contract_2330)
 # # 台積電部位500萬，大台指期16000點為例
 # sell = bata.iloc[0,1] * 5000000 / (16000*200)
 # print(sell) # 2.1245328840239317 約空台指期2口
+
